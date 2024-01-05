@@ -4,11 +4,11 @@ const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 
 
-    router.get('/api/notes', (req, res)=>{
+    router.get('/notes', (req, res)=>{
         res.sendFile(path.join(__dirname,'../db/db.json'));
     });
     
-    router.post('/api/notes',(req, res)=>{
+    router.post('/notes',(req, res)=>{
         let db = fs.readFileSync('./db/db.json');
         db = JSON.parse(db);
        // res.json(db);
@@ -23,7 +23,7 @@ const fs = require('fs');
         fs.writeFileSync('./db/db.json', JSON.stringify(db));
         res.json(db);
     });
-    router.delete('/api/notes/:id',(req,res)=>{
+    router.delete('/notes/:id',(req,res)=>{
         let db = JSON.parse(fs.readFileSync('./db/db.json'));
         let deleteNotes = db.filter(item=> item.id !== req.params.id);
         fs.writeFileSync('./db/db.json',JSON.stringify(deleteNotes));
