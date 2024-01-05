@@ -34,6 +34,8 @@ I did not have any collaberation on this project other than my tutor Trinh Nguye
 Specifically, 
 Activities: 3 Api-HTML Routes in server.js, 9 Static-Assets in server.js, 13 Post-Requests in server.js, 
 20 Data-Persistance in server.js, 21 Modularized-Routing in route files, 28 Mini-Project in route files.
+I also just received some very helpful guidance from a TA in class who is named Marc and he helped me with 
+some syntax issues in the server.js file and he helped me with the deployment to heroku. Very helpful and enlightening.
 
 ## License 
 
@@ -54,6 +56,7 @@ and submit any changes by making a pull request.
 
 https://github.com/Dmelz11/note-taker
 
+https://blooming-dusk-36091-c946c9a92ba5.herokuapp.com/
 
 ## Screenshot
 
