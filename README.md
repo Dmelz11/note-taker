@@ -60,4 +60,5 @@ https://blooming-dusk-36091-c946c9a92ba5.herokuapp.com/
 
 ## Screenshot
 
-![screenshot-of-note-taker-app](<Screenshot 2024-01-04 at 2.55.37 PM.png>)
+Sreenshot: <img width="1152" alt="Screenshot 2024-02-24 at 3 36 31 PM" src="https://github.com/Dmelz11/note-taker/assets/143745882/9484f3ee-76d9-4459-b21c-fb8407c408d1">
+
